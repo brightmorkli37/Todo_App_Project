@@ -4,6 +4,7 @@
     - Ability to change status of list items
     - Ability to set priorities
     - Filter items based on status
+    - Web Interface available
     - Api available
 
 
