@@ -2,8 +2,8 @@ from django.contrib import admin
 from .models import Todo
 
 class TodoAdmin(admin.ModelAdmin):
-    list_display = ['title', 'status', 'priority', 'important', 'created']
-    list_filter = ('important', 'status', 'priority')  
+    list_display = ['user', 'title', 'memo', 'important', 'created']
+    list_filter = ('user', 'title', 'important')  
     readonly_fields = ('created',)
     
 
